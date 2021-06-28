@@ -53,15 +53,15 @@ input[type=text], textarea {
     padding: 12px;
     border: none;
     resize: vertical;
-    font-family: 'SourceSansPro-Bold' sans-serif;
-    color: #969696;
+    font-family: 'SourceSansPro-Black' sans-serif;
+    opacity: 0.5;
     background-color: #d6cbcbdc;
     font-size: 18px;
   }
 
 .label {
     font-size: 25px;
-    
+
 }
 .input {
     font-size: 18px;
@@ -134,10 +134,10 @@ input[type=text], textarea {
     width: 25%;
     float: left;
     padding-bottom: 153px;
-
 }
-.col-30 {
-    width: 30%;
+
+.col-35 {
+    width: 35%;
     float: left;
     padding-bottom: 230px;
 }
@@ -145,6 +145,7 @@ input[type=text], textarea {
     font-size: 36px;
     font-family: 'SourceSansPro-Black' sans-serif;
     padding-top: 20px;
+    float: left;
  
 }
 input[type=textemail] {
@@ -158,30 +159,52 @@ input[type=textemail] {
     background-color: #060606;
     border:none;
     margin: 10px 0;
-    
   }
+  .item {
+      position: absolute;
+      float: right;
+      padding-top: 50px;
+      font-family:'SourceSansPro-Black' sans-serif;
+      font-size: 16px;
+      padding-left: 20px;
+    }
+    i {
+        padding-left: 20px;
+    }
 
-.col-15 {
-    width: 15%;
-    float: left;
-    top: 65px;
-    padding-top: 70px;
-    
-}
+    .col-40 {
+        width: 40%;
+        float: left; 
+        padding-bottom: 250px;
+    }
 
-.item {
-    color: white;
-    font-size: 16px;
-    font-family: 'SourceSansPro-Black';
-}
+    .h1 {
+        float: left;
+        font-size: 36px;
+        font-family:'SourceSansPro-Black' sans-serif;
+        color:white;
+    }
+    th {
+        float: left;
+        font-size: 16px;
+        font-family:'SourceSansPro-Regular';
+        color:white;
+        margin-top: 15px;
 
-.icons {
-    float: left;
-    display: flex;
-    flex-flow: row wrap; 
-    justify-content: space-between;
-    margin-left: auto;
-}
+    }
+    .items {
+        float: right;
+        position: relative;  
+        padding-right: 50px;      
+        padding-top: 100px;
+    }
+    .i {
+        font-size: 20px;
+    }
+
+
+
+
 
 
 
